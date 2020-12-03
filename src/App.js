@@ -31,8 +31,7 @@ function App() {
 
   useEffect(() => {
     document.body.style.backgroundColor = background.backgroundColor;
-    
-  })
+  }, [background])
 
 
 
